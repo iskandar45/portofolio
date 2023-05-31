@@ -16,7 +16,7 @@ export default function Home() {
               alt="My Photo"
             />
             <h4 className="text-4xl font-bold text-center my-3 text-slate-700">
-              Welcome to Iskandar45
+              It&apos;s me, Iskandar45 👋
             </h4>
           </div>
           <p className="text-center text-slate-700 italic mb-5 sm:px-0 lg:px-32">
