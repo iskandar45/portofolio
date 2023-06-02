@@ -19,8 +19,10 @@ function Card() {
           </div>
         </a>
         <div className="px-6 py-4">
-          <h3 className="text-2xl font-semibold text-slate-800">{data.title}</h3>
-          <p className="text-slate-600 overflow-hidden text-ellipsis whitespace-nowrap">
+          <h3 className="text-2xl font-semibold text-slate-800 dark:text-slate-200">
+            {data.title}
+          </h3>
+          <p className="text-slate-600 dark:text-slate-200 overflow-hidden text-ellipsis whitespace-nowrap">
             {data.description}
           </p>
           <div className="flex justify-end mt-3">
@@ -42,10 +44,10 @@ function Card() {
             href={data.linkRepo}
             target="_blank"
             rel="noreferrer"
-            className="flex text-center justify-center items-center gap-3 w-full p-2 border border-slate-300 rounded hover:bg-slate-200"
+            className="flex bg-slate-300 dark:bg-slate-800 text-center justify-center items-center gap-3 w-full p-2 border border-slate-300 rounded hover:invert"
           >
             <Image src={ICGithub} width={30} height={30} alt="github" />
-            <span className="text-lg text-slate-700">Github</span>
+            <span className="text-lg text-slate-700 dark:text-slate-200">Github</span>
           </a>
         </div>
       </div>
